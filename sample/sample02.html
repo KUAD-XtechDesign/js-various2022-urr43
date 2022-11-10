@@ -51,7 +51,7 @@
         <div class="set"><img src="./images/IMG_0908_Original.jpg" alt=""></div>  
       </div>
 
-      
+      <body>
         <div class="circle"></div>
         <div class="mouse"></div>
         <main>
@@ -60,9 +60,13 @@
             <input type="checkbox"/>
           </div>
         </main>
+      </body>
+      let setProperty;const mouse = document.querySelector('.mouse');const circle = document.querySelector('.circle');document.addEventListener('mousemove', function(e){setProperty = `translate(${e.clientX}px, ${e.clientY}px`;mouse.style.transform = setProperty;circle.style.transform = setProperty;})
       
-
+      
+      
     </div>
   </body>
+  
   
 </html>
