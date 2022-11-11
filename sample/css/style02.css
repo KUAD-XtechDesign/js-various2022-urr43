@@ -4,6 +4,55 @@ li{
   list-style: none;
 }
 
+html,
+body,
+a {
+  cursor: none;
+}
+.cursor {
+  position: fixed;
+  top: -5px;
+  left: -5px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: rgba(128, 0, 255, 0.518);
+  z-index: 1000;
+  transition: width 0.5s, height 0.5s, top 0.5s, left 0.5s;
+  transform: translate(0, 0);
+  pointer-events: none;
+}
+/*aタグにホバーした時に見た目変化*/
+.cursor.cursor--hover {
+  top: -20px;
+  left: -20px;
+  width: 40px;
+  height: 40px;
+  background: rgba(205, 114, 113, 0.5);
+}
+/*動き確認用ボタン*/
+.btn {
+  display: inline-block;
+  min-width: 300px;
+  margin: 20px;
+  padding: 20px;
+  color: #fff;
+  background-color: #000;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
 img{
   max-width: 100%;
 }

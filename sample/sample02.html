@@ -13,6 +13,28 @@
     <script src="./js/script02.js"></script>
     <title>sample02</title>
   </head>
+  <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- 必要なライブラリをネット上から直接参照 CDN -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/filipelinhares/ress/master/dist/ress.min.css"/>
+    <!-- 自分のcss -->
+    <link rel="stylesheet" href="./css/style02.css" />
+    <!-- 自分のjs -->
+    <script src="./js/script02.js"></script>
+    <title>rainy day</title>
+  </head>
+  <body class="one">
+    <div id="luxy">
+    <script type="text/javascript">
+      luxy.init();
+    </script>
+    <!--独自のカーソル-->
+   <div id="cursor" class="cursor"></div>
+     <!--動き確認用ボタン-->
+     <a href="#" class="btn"></a>
+    <div class="wrapper">
+
   <body class="one">
     <div class="wrapper">
       
@@ -51,17 +73,6 @@
         <div class="set"><img src="./images/IMG_0908_Original.jpg" alt=""></div>  
       </div>
 
-      <body>
-        <div class="circle"></div>
-        <div class="mouse"></div>
-        <main>
-          <div class="button_wrapper">
-            <button class="button">BUTTON</button>
-            <input type="checkbox"/>
-          </div>
-        </main>
-      </body>
-      let setProperty;const mouse = document.querySelector('.mouse');const circle = document.querySelector('.circle');document.addEventListener('mousemove', function(e){setProperty = `translate(${e.clientX}px, ${e.clientY}px`;mouse.style.transform = setProperty;circle.style.transform = setProperty;})
       
       
       
