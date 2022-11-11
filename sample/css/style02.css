@@ -16,7 +16,7 @@ a {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background: rgba(128, 0, 255, 0.518);
+  background: rgba(255, 255, 255, 0.518);
   z-index: 1000;
   transition: width 0.5s, height 0.5s, top 0.5s, left 0.5s;
   transform: translate(0, 0);
@@ -71,7 +71,7 @@ header{
 #wave{
   width:60px;
   height: 60px;
-  background-image: url(../images/wave.png);
+  background-image: url(../images/murasaki_heart-300x300.png);
   background-size: 60px auto;
   background-position: center center;
   background-repeat: repeat-x;
